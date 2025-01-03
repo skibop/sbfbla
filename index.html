@@ -9,45 +9,55 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+  @media screen and (max-width: 768px) {
+    #myNavbar { display: none; }
+    .w3-hide-large { display: block !important; }
+  }
+  @media screen and (min-width: 769px) {
+    #navDemo { display: none !important; }
+  }
 </style>
 </head>
 <body>
 
 <!-- Navbar  -->
 <div style="position: fixed; width: 100%; overflow: hidden; z-index: 999;">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
     <a href="#about" class="w3-bar-item w3-button "><i class="fa fa-th"></i> ABOUT</a>
     <a href="#officers" class="w3-bar-item w3-button "><i class="fa fa-user"></i> OFFICERS</a>
-    <a href="#calendar" class="w3-bar-item w3-button "><i class="fa fa-calendar"></i> CALENDAR</a>
     <a href="#resources" class="w3-bar-item w3-button "><i class="fa fa-book"></i> RESOURCES</a>
-    <a href="https://www.instagram.com/sb.fbla/" class="w3-bar-item w3-button  w3-right">
+    <a href="https://www.instagram.com/sb.fbla/" class="w3-bar-item w3-button w3-right">
       <i class="fa fa-instagram"></i> FOLLOW US ON INSTAGRAM</a>
   </div>
 
-  <!-- Navbar on small screens -->
+  <!-- Navbar for small screens -->
+  <div class="w3-bar w3-hide-large">
+    <a class="w3-bar-item w3-button w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   <div id="navDemo" class="w3-bar-block w3-white w3-hide">
     <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()"> HOME</a>
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"> ABOUT</a>
     <a href="#officers" class="w3-bar-item w3-button" onclick="toggleFunction()"> OFFICERS</a>
-    <a href="#calendar" class="w3-bar-item w3-button" onclick="toggleFunction()"> CALENDAR</a>
-    <a href="" class="w3-bar-item w3-button" onclick="toggleFunction()"> RESOURCES</a>
+    <a href="#resources" class="w3-bar-item w3-button" onclick="toggleFunction()"> RESOURCES</a>
+    <a href="https://www.instagram.com/sb.fbla/" class="w3-bar-item w3-button w3-right">
+      <i class="fa fa-instagram"></i> FOLLOW US ON INSTAGRAM</a>
   </div>
 </div>
 
 <!-- Title + Image -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="">SOUTH BRUNSWICK</span></span>
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="">FUTURE BUSINESS LEADERS OF AMERICA</span></span>
-</div>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span>SOUTH BRUNSWICK</span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span>FUTURE BUSINESS LEADERS OF AMERICA</span></span>
+  </div>
 </div>
 <br>
 
-<!-- UPDATES - MOVE GREEN ARROW TO END OF THIS LINE TO UNCOMMENT IN CASE OF ALERT -->
+<!-- UPDATES -->
 <br>
 <div class="w3-panel w3-yellow w3-display-container" style="width:50%; margin:auto;">
   <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
@@ -109,48 +119,8 @@
   </div>
   <br>
   
-  <!-- GOALS -Currently uncommented- -->
-<!--
-  <p class="w3-large w3-center w3-padding-16">Our Goals:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>???</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>???</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>???</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-</div>
--->
 
-<!-- STATS -Currently Uncommented- -->
-
-<!--
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">???+</span><br>
-    MEMBERS
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">$???+</span><br>
-    FUNDRAISED
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">???+</span><br>
-    STATE & NATIONAL WINNERS
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">???+</span><br>
-    COMPETITORS
-  </div>
-</div>
--->
-
-<!-- OFFICERS  -->
+<!-- Officers Section -->
 <div class="w3-content w3-container w3-padding-64" id="officers">
   <h3 class="w3-center">OUR OFFICER TEAM</h3>
   <p class="w3-center"><em>Here are the current officers for the 2023-2024 school year!</em></p><br>
@@ -235,7 +205,7 @@
       <p>Underclassmen Rep</p>
     </div>
 
-    <div class="w3-col m3" style="margin-left:350px;">
+    <div class="w3-col m3">
       <img src="FBLA IMAGEs/1.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Ankit Kale | Underclassmen Rep">
       <h4>Ankit Kale</h4>
       <p>Underclassmen Rep</p>
@@ -253,14 +223,6 @@
 </div>
 
 <hr style="height:1px; background-color: black;">
-
-<!-- CALENDAR -->
-<div class="w3-content w3-container w3-padding-64" id="calendar">
-  <h1 class="w3-center">CALENDAR</h1>
-  <div class="w3-center">
-    <iframe src="https://calendar.google.com/calendar/embed?src=sb.fbla2%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-  </div>
-</div>
 
 
 <!-- Select Resources -->
@@ -294,8 +256,10 @@
 </div>
 
 
-
 <br><br>
+
+
+
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
@@ -304,37 +268,49 @@
       <i class="fa fa-instagram w3-hover-opacity"> - Follow Us On Instagram</i>
     </a>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
 </footer>
- 
+
 <script>
-// Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-window.onload = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > -10 || document.documentElement.scrollTop > -10) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
+  // Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  // Change style of navbar on scroll
+  window.onload = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > -10 || document.documentElement.scrollTop > -10) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      }
+  }
+  
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  </script>
+  
+<script>
+// Toggle Navbar
 function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
 </script>
 
