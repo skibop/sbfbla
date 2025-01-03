@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to SB FBLA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</style>
+</head>
+<body>
+
+<!-- Navbar  -->
+<div style="position: fixed; width: 100%; overflow: hidden; z-index: 999;">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+    <a href="#about" class="w3-bar-item w3-button "><i class="fa fa-th"></i> ABOUT</a>
+    <a href="#officers" class="w3-bar-item w3-button "><i class="fa fa-user"></i> OFFICERS</a>
+    <a href="#calendar" class="w3-bar-item w3-button "><i class="fa fa-calendar"></i> CALENDAR</a>
+    <a href="#resources" class="w3-bar-item w3-button "><i class="fa fa-book"></i> RESOURCES</a>
+    <a href="https://www.instagram.com/sb.fbla/" class="w3-bar-item w3-button  w3-right">
+      <i class="fa fa-instagram"></i> FOLLOW US ON INSTAGRAM</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide">
+    <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()"> HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"> ABOUT</a>
+    <a href="#officers" class="w3-bar-item w3-button" onclick="toggleFunction()"> OFFICERS</a>
+    <a href="#calendar" class="w3-bar-item w3-button" onclick="toggleFunction()"> CALENDAR</a>
+    <a href="" class="w3-bar-item w3-button" onclick="toggleFunction()"> RESOURCES</a>
+  </div>
+</div>
+
+<!-- Title + Image -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="">SOUTH BRUNSWICK</span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="">FUTURE BUSINESS LEADERS OF AMERICA</span></span>
+</div>
+</div>
+<br>
+
+<!-- UPDATES - MOVE GREEN ARROW TO END OF THIS LINE TO UNCOMMENT IN CASE OF ALERT -->
+<br>
+<div class="w3-panel w3-yellow w3-display-container" style="width:50%; margin:auto;">
+  <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+  <h3>3/11/24 - SLC</h3>
+  <p>SLC is just ONE MONTH AWAY! Be sure to practice and use all the resources we've provided. You got this!</p>
+</div> 
+
+<!-- About Section -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p class="w3-center"><em>South Brunswick's FBLA Chapter</em></p>
+  <p class="w3-center">SB FBLA is South Brunswick's high school division of Future Business Leaders of America.
+    FBLA helps high school students prepare for careers in business through competitions, leadership development, and educational programs.
+    We inspire and prepare students to become community-minded business leaders in a global society through relevant career preparation and leadership experiences.</p>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <br>
+      <img src="FBLA IMAGEs/IMG_4904.jpeg" style="height:280px; object-fit: cover;" onclick="onClick(this)" class="w3-round w3-image w3-hover-opacity" alt="Competitive Events Committee at SLC in Atlantic City" width="500" height="333">
+    </div>
+
+    <div class="w3-col m6  w3-padding-large">
+      <h4>COMPETE</h4>
+      <p>Showcase your business prowess in 1 of 53 events and gain competitive exposure on the state and national levels. 
+        At the state level, you will be given the opportunity to attend an overnight conference at Atlantic City, New Jersey, and achieve awards and recognition for your achievements.
+        At a national level, you will be able to attend overnight conferences in some of the country's grandest cities, such as Atlanta, Chicago, or Anaheim.</p>
+    </div>
+  </div>
+  <br>
+
+  <div class="w3-row">
+    <div class="w3-col m6  w3-padding-large">
+     <h4>LEAD & LEARN</h4>
+     <p>You will be able to participate in multiple leadership activities and partake in 
+      presentation and speaking events, work with subcommittees of various fields, and work towards achievement awards. 
+      You will be given all the resources and opportunities you need to learn about the business field and interests you want to pursue, whether it be from
+      the subcommittees and presentations we provide or the outside business professionals we invite to our meetings.</p>
+   </div>
+
+   <div class="w3-col m6 w3-center w3-padding-large">
+     <br>
+     <img src="FBLA IMAGEs/IMG_6731.jpg" style="height:280px; object-fit: cover;" onclick="onClick(this)" class="w3-round w3-image w3-hover-opacity" alt="Our Co-President Kunaal running for Central Region VP in Atlantic City!" width="500" height="333">
+   </div>
+ </div>
+ <br>
+    
+  <div class="w3-row">
+
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="FBLA IMAGEs/IMG_9918.jpeg" style="height:280px; object-fit: cover;" onclick="onClick(this)" class="w3-round w3-image w3-hover-opacity" alt="..." width="500" height="333">
+    </div>
+
+    <div class="w3-col m6  w3-padding-large">
+      <h4>FUNDRAISE</h4>
+      <p>Spread awareness of prevalent issues by garnering public support and funds. 
+        You will be able to participate in the Pretzal Rod Fundraiser and attend the March of Dimes Annual Walk. 
+        You will learn vital business skills first-hand that can applied to any field of interest.</p>
+    </div>
+  </div>
+  <br>
+  
+  <!-- GOALS -Currently uncommented- -->
+<!--
+  <p class="w3-large w3-center w3-padding-16">Our Goals:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>???</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>???</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>???</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+</div>
+-->
+
+<!-- STATS -Currently Uncommented- -->
+
+<!--
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">???+</span><br>
+    MEMBERS
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">$???+</span><br>
+    FUNDRAISED
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">???+</span><br>
+    STATE & NATIONAL WINNERS
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">???+</span><br>
+    COMPETITORS
+  </div>
+</div>
+-->
+
+<!-- OFFICERS  -->
+<div class="w3-content w3-container w3-padding-64" id="officers">
+  <h3 class="w3-center">OUR OFFICER TEAM</h3>
+  <p class="w3-center"><em>Here are the current officers for the 2023-2024 school year!</em></p><br>
+  <br>
+
+  <!-- Grid of photos -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/4.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Kunaal Purohit | Co-President">
+      <h4>Kunaal Purohit</h4>
+      <p>Co-President</p>
+    </div>
+
+    <div class="w3-col m3" >
+      <img src="FBLA IMAGEs/7.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Ashwika Bansal | Co-President">
+      <h4>Ashwika Bansal</h4>
+      <p>Co-President</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/12.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Pratik Vindyala | Membership">
+      <h4>Pratik Vindyala</h4>
+      <p>Membership</p>
+    </div>
+    
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/9.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Vivaan Shah | Community Service">
+      <h4>Vivaan Shah</h4>
+      <p>Community Service</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/10.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Anish Kumar | Competitve Events">
+      <h4>Anish Kumar</h4>
+      <p>Competitve Events</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/3.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Purva Unhale | Competitve Events">
+      <h4>Purva Unhale</h4>
+      <p>Competitve Events</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/40qwIhXyZdRx.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Om Janamanchi | Competitve Events">
+      <h4>Om Janamanchi</h4>
+      <p>Competitve Events</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/6.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Niharika Chandra | Secretary">
+      <h4>Niharika Chandra</h4>
+      <p>Secretary</p>
+    </div>
+  </div>
+
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/8.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Colin Lopes | Websmaster">
+      <h4>Colin Lopes</h4>
+      <p>Websmaster</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/2.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Areeb Mahmood | Websmaster">
+      <h4>Areeb Mahmood</h4>
+      <p>Webmaster</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/11.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Srihita Nuthalapati | Underclassmen Rep">
+      <h4>Srihita Nuthalapati</h4>
+      <p>Underclassmen Rep</p>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="FBLA IMAGEs/5.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Aayush Chebolu | Underclassmen Rep">
+      <h4>Aayush Chebolu</h4>
+      <p>Underclassmen Rep</p>
+    </div>
+
+    <div class="w3-col m3" style="margin-left:350px;">
+      <img src="FBLA IMAGEs/1.png" style="width:100%; border-radius: 50%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Ankit Kale | Underclassmen Rep">
+      <h4>Ankit Kale</h4>
+      <p>Underclassmen Rep</p>
+    </div>
+  </div>
+</div>
+
+<!-- Full Screen on Clicked Images -->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<hr style="height:1px; background-color: black;">
+
+<!-- CALENDAR -->
+<div class="w3-content w3-container w3-padding-64" id="calendar">
+  <h1 class="w3-center">CALENDAR</h1>
+  <div class="w3-center">
+    <iframe src="https://calendar.google.com/calendar/embed?src=sb.fbla2%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+</div>
+
+
+<!-- Select Resources -->
+<div class="w3-row w3-center w3-dark-grey w3-padding-16" id="resources">
+  <h1>RESOURCES</h1>
+  <h4>Click on the icons to find the resources you need!</h4><br>
+  <div class="w3-quarter w3-section">
+    <a href="https://docs.google.com/spreadsheets/d/1kU8HR7LJGCmIOTXuwov5nRZp8ISTlQUWTpJFP76vlYM/edit?usp=sharing">
+      <span class="w3-xlarge"><i class="fa fa-users"></i></span><br>
+      MEMBERSHIP TRACKER
+    </a>
+  </div>
+  <div class="w3-quarter w3-section">
+    <a href="https://www.fbla-pbl.org/divisions/fbla/fbla-competitive-events/">
+      <span class="w3-xlarge"><i class="fa fa-trophy"></i></span><br>
+      COMPETITIVE EVENTS
+    </a>
+  </div>
+  <div class="w3-quarter w3-section">
+    <a href="https://www.njfbla.org/communityservice">
+      <span class="w3-xlarge"><i class="fa fa-handshake-o"></i></span><br>
+      COMMUNITY SERVICE
+    </a>
+  </div>
+  <div class="w3-quarter w3-section">
+    <a href="https://learn.fbla-pbl.org/baa">
+      <span class="w3-xlarge"><i class="fa fa-briefcase"></i></span><br>
+      BUSINESS ACHIEVEMENT AWARDS
+    </a>
+  </div>
+</div>
+
+
+
+<br><br>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.instagram.com/sb.fbla/">
+      <i class="fa fa-instagram w3-hover-opacity"> - Follow Us On Instagram</i>
+    </a>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onload = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > -10 || document.documentElement.scrollTop > -10) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
