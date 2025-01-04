@@ -12,6 +12,7 @@ const officers = [
   { name: 'Vivaan Shah', role: 'Secretary', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Aayush Chebolu', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Sanuli Abeydeera', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
+  { name: 'Megha Kumar', role: 'Exec. of Membership', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Jagath Sathi', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Tanisha Kinikar', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Nishita Katare', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
