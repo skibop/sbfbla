@@ -3,7 +3,7 @@ import Image from 'next/image'
 const officers = [
   { name: 'Kunaal Purohit', role: 'Co-President', image: '/Images/kunaal.jpg' },
   { name: 'Ashwika Bansal', role: 'Co-President', image: '/Images/ashwika.jpg' },
-  { name: 'Ankit Kale', role: 'VP Of Competitive Events', image: '/Images/ankit.jpg' },
+  { name: 'Ankit Kale', role: 'VP Of Competitive Events', image: '/Images/ankit.jpg', objectPosition: 'center 25%' },
   { name: 'Srihita Nuthalapati', role: 'VP Of Community Service', image: '/Images/srihita.jpg' },
   { name: 'Niharika Chandra', role: 'VP of Membership', image: '/Images/niharika.jpg' },
   { name: 'Nishi Kamani', role: 'Social Media', image: '/Images/nishi.jpg' },
@@ -13,12 +13,12 @@ const officers = [
   { name: 'Sanuli Abeydeera', role: 'Exec. of Competitive Events', image: '/Images/sanuli.jpg' },
   { name: 'Megha Kumar', role: 'Exec. of Membership', image: '/Images/megha.jpg' },
   { name: 'Jagath Sathi', role: 'Exec. of Community Service', image: '/Images/jagath.jpg' },
-  { name: 'Tanisha Kinikar', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
+  { name: 'Tanisha Kinikar', role: 'Exec. of Competitive Events', image: '/Images/Tanisha.jpg' },
   { name: 'Nishita Katare', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Arnav Deshpande', role: 'Exec. of Community Service', image: '/Images/arnav.png' },
   { name: 'Ritika Kulkarni', role: 'Exec. of Community Service', image: '/Images/ritika.jpg' },
-  { name: 'Shaurya Suresh', role: 'Underclassmen Rep', image: '/Images/shaurya.jpg' },
-  { name: 'Syed Aayan', role: 'Underclassmen Rep', image: '/Images/syed.jpg' },
+  { name: 'Shaurya Suresh', role: 'Underclassmen Rep', image: '/Images/shaurya.jpg', objectPosition: 'center 25%' },
+  { name: 'Syed Aayan', role: 'Underclassmen Rep', image: '/Images/syed.jpg', objectPosition: 'center 0%' },
 
 ]
 
@@ -36,7 +36,10 @@ export default function Officers() {
                 alt={officer.name}
                 width={200}
                 height={200}
-                className="rounded-full mb-4 object-cover aspect-square object-center md:object-top"
+                className="rounded-full mb-4 object-cover aspect-square"
+                style={{
+                  objectPosition: officer.objectPosition || 'center', // Default to 'center' if no specific position is provided
+                }}
                 />
               <h3 className="text-xl font-semibold">{officer.name}</h3>
               <p className="text-gray-600">{officer.role}</p>
