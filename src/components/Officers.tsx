@@ -14,7 +14,7 @@ const officers = [
   { name: 'Megha Kumar', role: 'Exec. of Membership', image: '/Images/megha.jpg' },
   { name: 'Jagath Sathi', role: 'Exec. of Community Service', image: '/Images/jagath.jpg' },
   { name: 'Tanisha Kinikar', role: 'Exec. of Competitive Events', image: '/Images/Tanisha.jpg' },
-  { name: 'Nishita Katare', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
+  { name: 'Nishita Katare', role: 'Exec. of Community Service', image: '/Images/nishita.png' },
   { name: 'Arnav Deshpande', role: 'Exec. of Community Service', image: '/Images/arnav.png' },
   { name: 'Ritika Kulkarni', role: 'Exec. of Community Service', image: '/Images/ritika.jpg' },
   { name: 'Shaurya Suresh', role: 'Underclassmen Rep', image: '/Images/shaurya.jpg', objectPosition: 'center 25%' },
