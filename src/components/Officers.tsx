@@ -1,24 +1,24 @@
 import Image from 'next/image'
 
 const officers = [
-  { name: 'Kunaal Purohit', role: 'Co-President', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Ashwika Bansal', role: 'Co-President', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Ankit Kale', role: 'VP Of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Srihita Nuthalapati', role: 'VP Of Community Service', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Niharika Chandra', role: 'VP of Membership', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Nishi Kamani', role: 'Social Media', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Pranavi Kaki', role: 'Social Media', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Vivaan Shah', role: 'Secretary', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Aayush Chebolu', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Sanuli Abeydeera', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Megha Kumar', role: 'Exec. of Membership', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Jagath Sathi', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
+  { name: 'Kunaal Purohit', role: 'Co-President', image: '/Images/kunaal.jpg' },
+  { name: 'Ashwika Bansal', role: 'Co-President', image: '/Images/ashwika.jpg' },
+  { name: 'Ankit Kale', role: 'VP Of Competitive Events', image: '/Images/ankit.jpg' },
+  { name: 'Srihita Nuthalapati', role: 'VP Of Community Service', image: '/Images/srihita.jpg' },
+  { name: 'Niharika Chandra', role: 'VP of Membership', image: '/Images/niharika.jpg' },
+  { name: 'Nishi Kamani', role: 'Social Media', image: '/Images/nishi.jpg' },
+  { name: 'Pranavi Kaki', role: 'Social Media', image: '/Images/pranavi.jpeg' },
+  { name: 'Vivaan Shah', role: 'Secretary', image: '/Images/vivaan.jpg' },
+  { name: 'Aayush Chebolu', role: 'Exec. of Competitive Events', image: '/Images/aayush.jpeg' },
+  { name: 'Sanuli Abeydeera', role: 'Exec. of Competitive Events', image: '/Images/sanuli.jpg' },
+  { name: 'Megha Kumar', role: 'Exec. of Membership', image: '/Images/megha.jpg' },
+  { name: 'Jagath Sathi', role: 'Exec. of Community Service', image: '/Images/jagath.jpg' },
   { name: 'Tanisha Kinikar', role: 'Exec. of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Nishita Katare', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Arnav Deshpande', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Ritika Kulkarni', role: 'Exec. of Community Service', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Shaurya Suresh', role: 'Underclassmen Rep', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Syed Aayan', role: 'Underclassmen Rep', image: '/placeholder.svg?height=300&width=300' },
+  { name: 'Arnav Deshpande', role: 'Exec. of Community Service', image: '/Images/arnav.png' },
+  { name: 'Ritika Kulkarni', role: 'Exec. of Community Service', image: '/Images/ritika.jpg' },
+  { name: 'Shaurya Suresh', role: 'Underclassmen Rep', image: '/Images/shaurya.jpg' },
+  { name: 'Syed Aayan', role: 'Underclassmen Rep', image: '/Images/syed.jpg' },
 
 ]
 
@@ -36,8 +36,8 @@ export default function Officers() {
                 alt={officer.name}
                 width={200}
                 height={200}
-                className="rounded-full mb-4"
-              />
+                className="rounded-full mb-4 object-cover aspect-square object-center md:object-top"
+                />
               <h3 className="text-xl font-semibold">{officer.name}</h3>
               <p className="text-gray-600">{officer.role}</p>
             </div>

@@ -15,7 +15,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           <div className="flex items-center justify-center">
             <Image
-              src="/placeholder.svg?height=280&width=500"
+              src="/Images/IMG_4904.jpeg"
               alt="Competitive Events Committee at SLC in Atlantic City"
               width={500}
               height={280}
@@ -23,7 +23,7 @@ export default function About() {
             />
           </div>
           <div className="flex flex-col justify-center bg-blue-100 p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-800">COMPETE</h3>
+            <h3 className="text-3xl font-semibold mb-4 text-blue-800">COMPETE</h3>
             <p className="text-gray-700">
               Showcase your business prowess in 1 of 76 events and gain competitive exposure on the state and national levels.
               At the state level, you will be given the opportunity to attend an overnight conference at Atlantic City, New Jersey, and achieve awards and recognition for your achievements.
@@ -34,7 +34,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           <div className="flex flex-col justify-center bg-yellow-100 p-6 rounded-lg md:order-1">
-            <h3 className="text-2xl font-semibold mb-4 text-yellow-800">LEAD &amp; LEARN</h3>
+            <h3 className="text-3xl font-semibold mb-4 text-yellow-800">LEAD &amp; LEARN</h3>
             <p className="text-gray-700">
               You will be able to participate in multiple leadership activities and partake in
               presentation and speaking events, work with committees of various fields, and work towards achievement awards.
@@ -44,7 +44,7 @@ export default function About() {
           </div>
           <div className="flex items-center justify-center md:order-2">
             <Image
-              src="/placeholder.svg?height=280&width=500"
+              src="/IMAGES/IMG_6731.jpg"
               alt="Our Co-President Kunaal running for Central Region VP in Atlantic City!"
               width={500}
               height={280}
@@ -56,7 +56,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="flex items-center justify-center">
             <Image
-              src="/placeholder.svg?height=280&width=500"
+              src="/Images/IMG_9918.jpeg"
               alt="Fundraising event"
               width={500}
               height={280}
@@ -64,7 +64,7 @@ export default function About() {
             />
           </div>
           <div className="flex flex-col justify-center bg-blue-100 p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-800">FUNDRAISE</h3>
+            <h3 className="text-3xl font-semibold mb-4 text-blue-800">FUNDRAISE</h3>
             <p className="text-gray-700">
               Spread awareness of prevalent issues by garnering public support and funds.
               You will be able to participate in the Pretzal Rod Fundraiser and our Chipotle &amp; Panera Fundraisers. You will also be able to give back to our community by donating items for our Community Service Project &amp; State Initiatives.
