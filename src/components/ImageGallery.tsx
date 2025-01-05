@@ -4,12 +4,12 @@ import { useState } from 'react'
 import Image from 'next/image'
 
 const images = [
-  { src: '/placeholder.svg?height=300&width=400', alt: 'FBLA Event 1' },
-  { src: '/placeholder.svg?height=300&width=400', alt: 'FBLA Event 2' },
-  { src: '/placeholder.svg?height=300&width=400', alt: 'FBLA Event 3' },
-  { src: '/placeholder.svg?height=300&width=400', alt: 'FBLA Event 4' },
-  { src: '/placeholder.svg?height=300&width=400', alt: 'FBLA Event 5' },
-  { src: '/placeholder.svg?height=300&width=400', alt: 'FBLA Event 6' },
+  { src: '/Images/event1.png', alt: 'FBLA Event 1' },
+  { src: '/Images/event2.png', alt: 'FBLA Event 2' },
+  { src: '/Images/event3.png', alt: 'FBLA Event 3' },
+  { src: '/Images/IMG_1217.jpg', alt: 'FBLA Event 4' },
+  { src: '/Images/IMG_0301.JPG', alt: 'FBLA Event 5' },
+  { src: '/Images/IMG_1216.jpg', alt: 'FBLA Event 6' },
 ]
 
 export default function ImageGallery() {
