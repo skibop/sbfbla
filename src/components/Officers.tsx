@@ -6,7 +6,6 @@ const officers = [
   { name: 'Ankit Kale', role: 'VP Of Competitive Events', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Srihita Nuthalapati', role: 'VP Of Community Service', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Niharika Chandra', role: 'VP of Membership', image: '/placeholder.svg?height=300&width=300' },
-  { name: 'Anish Kumar', role: 'Competitive Events', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Nishi Kamani', role: 'Social Media', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Pranavi Kaki', role: 'Social Media', image: '/placeholder.svg?height=300&width=300' },
   { name: 'Vivaan Shah', role: 'Secretary', image: '/placeholder.svg?height=300&width=300' },
