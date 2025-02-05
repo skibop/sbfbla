@@ -23,7 +23,7 @@ export default function Navbar() {
   }, [isOpen])
 
   return (
-    <nav className="fixed w-full z-10 bg-blue-900 bg-opacity-75">
+    <nav className="fixed w-full z-10 bg-gray-900 bg-opacity-75">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="hidden md:flex items-center space-x-4">
