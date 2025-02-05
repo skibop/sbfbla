@@ -67,7 +67,7 @@ export default function About() {
             <h3 className="text-3xl font-semibold mb-4 text-blue-800">FUNDRAISE</h3>
             <p className="text-gray-700 text-2xl">
               Spread awareness of prevalent issues by garnering public support and funds.
-              You will be able to participate in the Pretzal Rod Fundraiser and our Chipotle &amp; Panera Fundraisers. You will also be able to give back to our community by donating items for our Community Service Project &amp; State Initiatives.
+              You will be able to participate in the Pretzal Rod Fundraiser as well as our Chipotle and Panera Fundraisers. You will also be able to give back to our community by donating items for our Community Service Project &amp; State Initiatives.
               You will learn vital business skills first-hand that can be applied to any field of interest.
             </p>
           </div>
