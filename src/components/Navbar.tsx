@@ -30,6 +30,7 @@ export default function Navbar() {
             <NavItem href="#home">Home</NavItem>
             <NavItem href="#about">About</NavItem>
             <NavItem href="#officers">Officers</NavItem>
+            <NavItem href='#AEP'>American Enterprise</NavItem>
             <NavItem href="#gallery">Gallery</NavItem>
             <NavItem href="#resources">Resources</NavItem>
             <a
@@ -57,7 +58,7 @@ export default function Navbar() {
         } ${isClosing ? 'hidden' : ''}`}
       >
         <div className="flex flex-col px-4 py-2 space-y-2">
-          {['Home', 'About', 'Officers', 'Gallery', 'Resources'].map((item) => (
+          {['Home', 'About', 'Officers', 'Gallery', 'Resources', 'AEP'].map((item) => (
             <NavItem key={item} href={`#${item.toLowerCase()}`} className="py-2 block w-full text-left">
               {item}
             </NavItem>
